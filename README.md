@@ -1,3 +1,3 @@
 # Edpuzzle-Hacks-for-schoology
 These are modified edpuzzle hacks that you can use on schoology.
-ALERT: NOW BACK UP WORKING ON AMKING IT SO THE SCRIPT WONT JUST TELL YOU THE ANSWERS RIGHT NOW YOU CAN JUST SKIP TO EACH QUESTION MANUALLY FIXING SOON.
+ALERT: NOW WORKING AGIAN (note you have to clear your cache on google) look it up its pretty easy to figure out also you need to clear it all time. 
