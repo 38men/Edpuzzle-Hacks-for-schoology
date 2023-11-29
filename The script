@@ -1,16 +1,1 @@
-fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js")
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.text();
-  })
-  .then(scriptCode => {
-    // Instead of using eval, you can append the script to the DOM
-    const script = document.createElement('script');
-    script.textContent = scriptCode;
-    document.body.appendChild(script);
-  })
-  .catch(error => {
-    console.error('There was a problem fetching or executing the script:', error);
-  });
+javascript: fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js").then(r => r.text()).then(r => eval(r))
